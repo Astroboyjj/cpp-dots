@@ -1,8 +1,8 @@
 #!/bin/bash
 #Compiles my project dots in c++
 
-g++ -c main.cpp
-g++ main.o -o dots -lsfml-graphics -lsfml-window -lsfml-system
+g++ -c dots3.cpp
+g++ dots3.o -o dots3 -lsfml-graphics -lsfml-window -lsfml-system
 #OUTPUT=$(g++ -c main.cpp)
 #if g++ -c main.cpp;
 #then

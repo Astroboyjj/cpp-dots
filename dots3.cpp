@@ -24,9 +24,13 @@ int main()
         window.close();
     }
 
-    // Get input conditional block
+    // Get input conditional block (hardcoded for now)
+    int group_count = 3;
+    int rule_count = 4;
+    float rule_values[4] = {1,-1,0.4,-0.7};
+    cout << rule_values[2];
 
-    // Run the rule function across the particle groups
+    // Run the rule functions on seprate threads passing particle group copies and rule_value
 
     // clear the window with black color
     window.clear(sf::Color::Black);

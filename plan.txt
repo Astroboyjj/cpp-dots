@@ -1,0 +1,5 @@
+take input for groups, # of particles, and rules for each
+create (data structure) for each particle group
+run rules on copies of those (data structures) multithreaded
+combine results in new (data structure) for next looop
+delete old (data structures)
